@@ -1,0 +1,39 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    margin: 0;
+    margin-top: 20%;
+    background-color: royalblue;
+    width: 10px;
+    height: 30px;
+    transition: width 2s;
+    animation: square 10s infinite;
+    
+
+}   
+
+/*
+.box:hover{
+    width: 300px;
+
+} */
+
+
+@keyframes square{
+
+    0%{width: 150px;}
+
+    50%{width: 600px}
+
+    60%{width: 1080px}
+
+    100%{width: 1900px}
+
+
+}
+
+
+
