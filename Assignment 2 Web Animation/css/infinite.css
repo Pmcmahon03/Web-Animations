@@ -1,0 +1,56 @@
+.navbar-default{
+    /*display: none;*/
+    height: 100px;  
+}
+
+.navbar-nav{
+    /*display: none;*/
+    font-size: 20px;
+    margin: auto;
+}
+
+/*-------------------------------*/
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #00C29E;
+    }
+    
+    div#circle {
+        width: 200px;
+        height: 200px;
+        border: 15px solid #484FCD;
+        margin: 0 auto;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border-radius: 50%;
+        animation: circle 2s infinite forwards;
+    }
+    
+    @keyframes circle {
+        0%{ border-color: #484FCD; transform: scale(1); }
+        25%{ border-color: #484FCD; transform: scale(1.1); }
+        50%{ border-color: #484FCD; transform: scale(1.3); }
+        75%{ border-color: #484FCD; transform: scale(1.1); }
+        100%{ border-color: #484FCD; transform: scale(1); }
+    }
+    
+    div#square {
+        width: 75px;
+        height: 75px;
+        border: 5px solid #484FCD;
+        animation: square 2s infinite ease-in-out alternate-reverse;
+    }
+    
+    @keyframes square {
+        0%{transform: rotate(0deg)}
+        25%{border-color: #484FCD; border-width: 10px;}
+        50%{border-color: #484FCD; border-width: 20px;}
+        75%{border-color: #484FCD; border-width: 40px;}
+        100%{transform: rotate(360deg); border-width: 5px;}
+    }

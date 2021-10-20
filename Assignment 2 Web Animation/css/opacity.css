@@ -1,0 +1,112 @@
+.navbar-default{
+    /*display: none;*/
+    height: 100px;  
+}
+
+.navbar-nav{
+    /*display: none;*/
+    font-size: 20px;
+    margin: auto;
+}
+
+/*------------------------------------*/
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #00C29E;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10%;
+}
+
+.box1{
+    
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: #484FCD;
+    margin: 10px;
+    animation: square 10s infinite;
+
+}
+
+@keyframes square{
+
+    0%{opacity: 0.1;}
+
+    50%{opacity: 0.5;}
+
+    100%{opacity: 1.0}
+
+}
+
+.box2{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: #484FCD;
+    margin: 10px;
+    animation: square 10s infinite;
+    animation-delay: 1s;
+
+}
+
+.box3{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: #484FCD;
+    margin: 10px;
+    animation: square 10s infinite;
+    animation-delay: 2s;
+
+}
+
+.box4{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: #484FCD;
+    margin: 10px;
+    animation: square 10s infinite;
+    animation-delay: 3s;
+
+}
+
+.box5{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: #484FCD;
+    margin: 10px;
+    animation: square 10s infinite;
+    animation-delay: 4s;
+
+}
+
+.box6{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: #484FCD;
+    margin: 10px;
+    animation: square 10s infinite;
+    animation-delay: 5s;
+
+}
+
+.box7{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: #484FCD;
+    margin: 10px;
+    animation: square 10s infinite;
+    animation-delay: 6s;
+
+}
+
+
